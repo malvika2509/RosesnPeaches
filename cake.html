@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="style.css">
+    <title>Hello, world!</title>
+</head>
+
+<body>
+    <center><h1 style="font-family: papyrus;">GIFT CAKES!</h1>
+    <!-- Gallery -->
+    
+    <table>
+    <div class="row">
+        <th>
+        <div class="one">
+            <img src="9.jpeg" height=400 width="300" alt="roses" class=two/>
+            <br>
+            <h3>CHOCOLATE CAKES</h3>
+            <b>Flavourr:</b>
+        <select>
+            <option>Chocolate Truffle</option>
+            <option>Coffee with chocolate</option>
+            <option>Death by Chocolate</option> 
+            <option>Chocolate Pinata</option>
+           </select><br><br>
+
+           <form action="?target=cart" method="post" accept-charset="utf-8" class="custom-add2cart">
+            <input type="hidden" name="target" value="cart" />
+            <input type="hidden" name="action" value="add" />
+            <input type="hidden" name="product_id" value="5" />
+            <div class="add-button-wrapper widget-fingerprint-product-add-button">
+                <button type="submit" class="btn regular-button regular-main-button add2cart submit">
+                    <a href="cart.html"><span>Add to cart</span></a>
+                </button>
+            </div>
+         </form>
+         </div>
+        </th>
+
+
+        <th>
+         <div class="one">
+            <img src="10.jpeg" height=400 width="300" alt="flowers" class=four />
+            <br>
+            <h3>OTHERS</h3>
+            <b>Flavours:</b>
+        <select>
+            <option>Vanilla</option>
+            <option>Pineapple</option>
+            <option>Butterscotch</option> 
+            <option>Rde velvet</option>
+            <option>Cheescake</option>
+           </select><br><br>
+
+           <form action="?target=cart" method="post" accept-charset="utf-8" class="custom-add2cart">
+            <input type="hidden" name="target" value="cart" />
+            <input type="hidden" name="action" value="add" />
+            <input type="hidden" name="product_id" value="5" />
+            <div class="add-button-wrapper widget-fingerprint-product-add-button">
+                <button type="submit" class="btn regular-button regular-main-button add2cart submit">
+                    <a href="cart.html"><span>Add to cart</span></a>
+                </button>
+            </div>
+         </form>
+         </div>
+        </th>  
+
+    </div>
+</center>
+</table>
+    <!-- Gallery -->
+</body>
+
+</html>

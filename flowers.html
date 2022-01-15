@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="style.css">
+    <title>Hello, world!</title>
+</head>
+
+<body>
+    <center><h1 style="font-family: papyrus;">GIFT FLOWERS!</h1></center>
+    <!-- Gallery -->
+    <table>
+    <div class="row">
+        <th>
+        <div class="one">
+            <img src="3.jpeg" height=400 width="300" alt="roses" class=two/>
+            <br>
+            <h3>ROSES</h3>
+            <b>Colour:</b>
+        <select>
+            <option>Red</option>
+            <option>Pink</option>
+            <option>Yellow</option> 
+            <option>Black</option>
+           </select><br><br>
+
+           <form action="?target=cart" method="post" accept-charset="utf-8" class="custom-add2cart">
+            <input type="hidden" name="target" value="cart" />
+            <input type="hidden" name="action" value="add" />
+            <input type="hidden" name="product_id" value="5" />
+            <div class="add-button-wrapper widget-fingerprint-product-add-button">
+                <button type="submit" class="btn regular-button regular-main-button add2cart submit">
+                    <a href="cart.html"><span>Add to cart</span></a>
+                </button>
+            </div>
+         </form>
+         </div>
+        </th>
+
+        <th>
+         <div class="one">
+            <img src="6.jpeg" height=400 width="300" alt="lillies" class=three />
+            <br>
+            <h3>LILLIES</h3>
+
+           <form action="?target=cart" method="post" accept-charset="utf-8" class="custom-add2cart">
+            <input type="hidden" name="target" value="cart" />
+            <input type="hidden" name="action" value="add" />
+            <input type="hidden" name="product_id" value="5" />
+            <div class="add-button-wrapper widget-fingerprint-product-add-button">
+                <button type="submit" class="btn regular-button regular-main-button add2cart submit">
+                    <a href="cart.html"><span>Add to cart</span></a>
+                </button>
+            </div>
+         </form>
+         </div>
+        </th>
+
+
+        <th>
+         <div class="one">
+            <img src="7.jpeg" height=400 width="300" alt="flowers" class=four />
+            <br>
+            <h3>OTHERS</h3>
+            <b>Type:</b>
+        <select>
+            <option>Sunflowers</option>
+            <option>Hibiscus</option>
+            <option>Dahlia</option> 
+            <option>Daisy</option>
+            <option >Calendula</option>
+           </select><br><br>
+
+           <form action="?target=cart" method="post" accept-charset="utf-8" class="custom-add2cart">
+            <input type="hidden" name="target" value="cart" />
+            <input type="hidden" name="action" value="add" />
+            <input type="hidden" name="product_id" value="5" />
+            <div class="add-button-wrapper widget-fingerprint-product-add-button">
+                <button type="submit" class="btn regular-button regular-main-button add2cart submit">
+                    <a href="cart.html"><span>Add to cart</span></a>
+                </button>
+            </div>
+         </form>
+         </div>
+        </th>  
+
+    </div>
+</table>
+    <!-- Gallery -->
+</body>
+
+</html>
